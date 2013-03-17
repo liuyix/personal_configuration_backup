@@ -1,0 +1,11 @@
+#+TITLE: WPS for Linux 安装备注
+
+
+http://linux.wps.cn/
+* 64bit Install
+sudo apt-get install ia32-libs
+http://community.wps.cn/wiki/64bit%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E5%8A%9E%E6%B3%95
+* 缺少字体
+http://bbs.wps.cn/thread-22355435-1-1.html
+
+将压缩包中的字体解压到 ~/.fonts 重启WPS即可
