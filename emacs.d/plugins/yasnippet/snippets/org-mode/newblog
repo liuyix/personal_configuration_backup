@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: new blog entry
+# key: nb
+# --
+
+#+OPTIONS: ${1:toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil}
+#+CATEGORY: ${2:Techs} , $3
+#+TAGS:$4
+#+DESCRIPTION:$5
+#+TITLE: $5
+#+PERMALINK: $6

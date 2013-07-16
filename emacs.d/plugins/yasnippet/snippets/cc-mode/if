@@ -1,0 +1,7 @@
+# name: if (...) { ... }
+# key: ifx
+# --
+if (${1:condition})
+{
+    $0
+}

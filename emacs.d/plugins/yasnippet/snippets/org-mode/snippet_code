@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: snippet-code
+# key: =
+# --
+=$1= $2

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bold-org
+# key: *
+# --
+ *$1* $2

@@ -1,0 +1,4 @@
+1219c1219
+<     (let ((stack-trace-on-error stack-trace-on-error))
+---
+>     (let ((debug-on-error debug-on-error))

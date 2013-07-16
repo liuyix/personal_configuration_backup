@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: insert-code
+# key: code
+# binding: direct-keybinding
+# --
+@<pre lang="${1:text}" line="1">
+#+BEGIN_HTML
+$2
+#+END_HTML
+@</pre>

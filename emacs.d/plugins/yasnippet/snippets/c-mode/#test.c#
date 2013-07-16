@@ -1,0 +1,2 @@
+printf ("abc%d\n",abc);
+printf ("abc\n");

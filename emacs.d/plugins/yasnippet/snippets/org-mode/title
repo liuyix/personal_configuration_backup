@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: title
+# key: title
+# binding: direct-keybinding
+# --
+#+TITLE: $1

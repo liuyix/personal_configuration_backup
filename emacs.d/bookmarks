@@ -1,0 +1,56 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("local_snippets"
+ (filename . "~/Dev/snippets/")
+ (front-context-string . "6v_1\n  -rw-r--r-")
+ (rear-context-string . "73  8月 13 13:40 ")
+ (position . 196))
+("topconf"
+ (filename . "~/Documents/topconf.org")
+ (front-context-string . "#+TITLE: Top会议记录")
+ (rear-context-string)
+ (position . 1))
+("ssh_splash2_dir"
+ (filename . "/ssh:liuyix@10.108.13.136:/home/liuyix/Dev/splash2/")
+ (front-context-string . "codes\n  drwxr-xr")
+ (rear-context-string . "96 Aug 20 15:55 ")
+ (position . 215))
+("local_gem5"
+ (filename . "~/Dev/gem5")
+ (front-context-string . "build\n  drwxr-xr")
+ (rear-context-string . "96  8月  7 21:15 ")
+ (position . 214)
+ (annotation . ""))
+("remote_targetexetrace.cc"
+ (filename . "/ssh:liuyix@10.108.13.136:/home/liuyix/Dev/gem5/src/cpu/targetexetrace.cc")
+ (front-context-string . "/*\n * targetexet")
+ (rear-context-string)
+ (position . 1))
+("snippets"
+ (filename . "~/Dev/snippets/")
+ (front-context-string . "conkyrc-jc\n  -rw")
+ (rear-context-string . "94  7月 22 23:40 ")
+ (position . 193))
+("ssh_gem5"
+ (filename . "/ssh:liuyix@10.108.13.136:/home/liuyix/Dev/gem5/")
+ (front-context-string . ".cproject\n  drwx")
+ (rear-context-string . "84 Jul 17 21:41 ")
+ (position . 227))
+("gem5.org"
+ (filename . "~/Documents/gem5.org")
+ (front-context-string . "* python in deep")
+ (rear-context-string . "es= 而似乎并没有这个模块\n\n")
+ (position . 7222))
+(".emacs"
+ (filename . "~/.emacs")
+ (front-context-string . "(custom-set-vari")
+ (rear-context-string)
+ (position . 1))
+(".bashrc"
+ (filename . "~/.bashrc")
+ (front-context-string . "=/home/liuyix/De")
+ (rear-context-string . "nclude\nexport m5")
+ (position . 3891))
+)

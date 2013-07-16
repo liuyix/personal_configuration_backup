@@ -1,0 +1,7 @@
+# name: mydebug
+# key: idbg
+# --
+
+#if MY_DEBUG
+$0
+#endif

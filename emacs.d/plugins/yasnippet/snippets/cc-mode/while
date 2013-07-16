@@ -1,0 +1,7 @@
+#name: while
+#key: whilex
+# --
+while (${1:cond})
+{
+	$0
+}

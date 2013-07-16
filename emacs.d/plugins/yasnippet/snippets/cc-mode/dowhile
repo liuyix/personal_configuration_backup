@@ -1,0 +1,7 @@
+#name: do...while...
+#key: dox
+# --
+do
+{
+	$0
+} while ($1);

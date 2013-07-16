@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: src-insert
+# key: src
+# binding: direct-keybinding
+# --
+#+BEGIN_SRC $1
+$2
+#+END_SRC
