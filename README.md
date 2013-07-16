@@ -24,4 +24,4 @@ this bash script backup linux configruation files and restore them when installi
 
 1. auto encrypted/decrypted private stuff
 2. run background auto sync
-3. more ?
+3. multi back-end support -- dropbox like cloud service
