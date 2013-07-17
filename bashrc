@@ -141,9 +141,9 @@ export Ssh933="liuyix@10.108.12.227"
 export SshArch="liuyix@10.108.12.16"
 export Sshz=liuyix@10.108.12.158
 
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
 ulimit -c unlimited
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
