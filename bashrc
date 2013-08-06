@@ -146,4 +146,4 @@ export Sshz=liuyix@10.108.12.158
 ulimit -c unlimited
 
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
+export PATH=/home/liuyix/bin:$PATH
