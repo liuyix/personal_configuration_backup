@@ -145,5 +145,5 @@ export Sshz=liuyix@10.108.12.158
 #eval "$(rbenv init -)"
 ulimit -c unlimited
 
-#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH=$HOME/.rvm/bin/:$PATH # Add RVM to PATH for scripting
 export PATH=/home/liuyix/bin:$PATH
