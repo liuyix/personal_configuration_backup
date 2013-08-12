@@ -150,3 +150,4 @@ export PATH=~/Dev/galaxys2_kernel_repack-i9100-ics/:$PATH
 export PATH=~/Dev/LBE_Root/root_firmware_script/extract-bootimg/:$PATH
 export PATH=$HOME/.rvm/bin/:$PATH # Add RVM to PATH for scripting
 export PATH=/home/liuyix/bin:$PATH
+export PATH=$HOME/android/adt-bundle/sdk/platform-tools:$PATH
