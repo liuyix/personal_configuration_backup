@@ -125,7 +125,7 @@ complete -cf info
 
 HOST_AWK=/usr/bin/gawk
 NDK_HOME=/home/cnliuyix/android-ndk-r7
-export JAVA_HOME=/home/liuyix/lib/jdk1.6.0_35
+export JAVA_HOME=/home/liuyix/lib/jdk
 export CLASSPATH=.:$JAVA_HOME/jre/lib:$JAVA_HOME/lib/tools.jar
 export PATH=$PATH:$JAVA_HOME/bin:/home/liuyix/bin
 export NDKINC=$NDK_HOME/platforms/android-9/arch-arm/usr/include
@@ -147,3 +147,8 @@ ulimit -c unlimited
 
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+export PATH=~/adt-bundle-linux-x86_64-20130717/sdk/platform-tools/:$PATH
+export PATH=~/android_toolchain/bin:$PATH
+export PATH=~/bin:$PATH
+export PATH=~/Dev/galaxys2_kernel_repack-i9100-ics/:$PATH
+export PATH=~/Dev/LBE_Root/root_firmware_script/extract-bootimg/:$PATH

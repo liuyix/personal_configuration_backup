@@ -2,153 +2,639 @@
 ;; EIEIO PERSISTENT OBJECT
 (gh-cache "gh/gh-gist-api/liuyix"
   :file "liuyix"
-  :entries #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8 data (("/users/liuyix/gists" "GET" "518961b9e53cab492b8a913ae8ba7382d4306545") [object pcache-entry "pcache-entry" 1374054300.493567 nil ([object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "sqlite_demo.py" 1531 "https://gist.github.com/raw/6019171/d4d23c00a88588579f107844289400c213a1f6fb/sqlite_demo.py" "#!/usr/bin/python
-#-*- encoding:utf-8 -*-
+  :entries #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8 data (("/users/liuyix/gists" "GET" "518961b9e53cab492b8a913ae8ba7382d4306545") [object pcache-entry "pcache-entry" 1374647169.903523 nil ([object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "运维1078.md" 1096 "https://gist.github.com/raw/8a148452cec252b03977/aca4e3c59a1b485a3a812223e087d7bc0b6678cb/%E8%BF%90%E7%BB%B41078.md" "### 工作职责
 
-import sqlite3
++ 保障美团网内网信息化系统24×7稳定运行，并进行前瞻性容量规划；
++设计并开发资产管理平台、自动构建部署系统、监控报警系统等自动化运维系统；
++ 积累并规范化系统运维的最佳实践并文档化。
 
-DBFILE = \"demo.db\"
-gConn = None
+### 职位要求
+
++ 计算机相关专业本科毕业，能熟练阅读英文文档；
++ 有过四年以上的Linux系统使用经验和两年以上的Linux系统管理经验；
++ 精通脚本语言Bash，并至少能用Perl，Python，PHP，Ruby中的一种进行快速开发；
++ 熟悉常见应用配置及优化，如Nginx/Apache/MySQL/DNS/Postfix等；
++ 认同并坚持“Automate Everything You Can”的原则，认同DevOps文化；
++ 极强的学习能力和动力，对未知技术和领域能快速掌握并实践；
++ 有资产管理平台、自动构建及部署系统、配置管理系统、监控报警平台等有实际建设经验者优先；
++ 对如下关键词代表的系统熟悉者优先：iDRAC/DRBD/KVM/LNMP/Zabbix/CMDB/GLPI/OCS等；
++ 在开源社群活跃并有积极贡献者优先
+"] [object gh-gist-gist-file "gh-gist-gist-file" "运维1006.md" 1608 "https://gist.github.com/raw/8a148452cec252b03977/f8efb855e3993d15424c4c01f546152c75c9a657/%E8%BF%90%E7%BB%B41006.md" "## 系统运维工程师1006 北京
+
+美团系统运维团队承担了为上千万美团消费者和商家提供快速稳定服务的重任。作为一名系统运维工程师，将掌控美团不同用途的服务器和业务，建设和维护大规模、高容错的硬件和软件基础架构及在线应用，解决复杂的软件和系统问题，同时改进部署效率，降低维护成本。
+
+我们倡导团队的分享，你可以分享阅读Python源代码的收获，也可以分享你的哲学思考。
+我们坚信兴趣是最好的老师，并尊重每个人的兴趣和意愿。
+我们坚信大道至简，认同并坚持“Don't Repeat Yourself”的原则。
+我们坚信DevOps文化，认同并坚持“Automate Everything”的思想。
+
+### 工作职责
+1. 搭建基础运维架构，对新技术和方案进行尝试和测试，用技术满足业务发展需求；
+1. 维护美团网各项服务，持续查找并修复问题，做保障业务稳定运行的幕后英雄；
+1. 应急响应线上故障报警，在故障时成为快速解决问题恢复业务的消防员；
+1. 积累系统运维的最佳实践，制定运维规范和策略，并实现文档化。
+
+### 职位要求
+1. Linux骨灰级玩家，两年以上Linux系统管理经验；
+1. 精通网络、操作系统原理，熟练使用SHELL、Python；
+1. 具备很强的分析和解决问题的能力，有项目管理、运维流程建设经验者优先；
+1. 对如下关键词代表的系统熟悉者优先：iDRAC/Cobbler/DRBD/KVM/LNMP/Zabbix/Puppet/CMDB等；
+1. 在开源社群活跃并有积极贡献者优先。
+"] [object gh-gist-gist-file "gh-gist-gist-file" "运维0040.md" 924 "https://gist.github.com/raw/8a148452cec252b03977/9b8644dd5bb438317b4c16a72c126ad6e47888a8/%E8%BF%90%E7%BB%B40040.md" "### 工作职责
+
+1. 研发自动化运维平台，提高运维、开发协作效率，规范操作流程。
+1. 研发基础服务组件，解决共性需求，减少重复开发与运维。
+1. 评估系统性能和运行状态，建立量化指标，用数据指导优化。
+
+### 职位要求
+
+1. Linux骨灰级玩家，两年以上Linux系统管理或开发经验；
+1. 精通网络、操作系统原理；
+1. 精通Python，熟悉Bash，并能用其它任何你能驾驭的语言进行快速开发；
+1. 自我驱动的学习和工作习惯，对未知技术和领域能快速掌握并实践；
+1. 良好的沟通、协调能力，有项目管理、团队管理经验者优先；
+1. 有代码发布、统一前端、资产配置管理、监控报警等系统实施经验者优先；
+1. 对如下关键词熟悉者优先：DevOps/CMDB/Django/Puppet/Zabbix/LNMP等；
+1. 在开源社区活跃并有积极贡献者优先。
+"] [object gh-gist-gist-file "gh-gist-gist-file" "数据抓取.md" 694 "https://gist.github.com/raw/8a148452cec252b03977/b4c9a7fb53949f5dacb7658d2f518c2775d5eed9/%E6%95%B0%E6%8D%AE%E6%8A%93%E5%8F%96.md" "## 数据抓取工程师
+
+### 工作职责
+
+1. 整合面向业务需求的抓取系统，抽象垂直方向搜索流程，完善抓取工具，完成竞对项目、商家等数据抓取解析工作
+1. 关注短期/长期发展需求，构建并完善每天百万次级别网页抓取系统，提供分布式、多样化、可扩展的统一开放抓取服务
+
+### 职位要求
+
+1. 具有相当饱满的工作热情，敢打敢拼，敢怒敢言
+1. 具有大中型后台服务系统研发经验，有网络爬虫或分布式系统研发经验者优先
+1. 熟悉JAVA或C++，有良好的编程习惯
+1. 有浏览器开发经验，了解浏览器工作原理者优先
+1. 有创业经验者优先
+
+"] [object gh-gist-gist-file "gh-gist-gist-file" "数据处理分析.md" 961 "https://gist.github.com/raw/8a148452cec252b03977/896c341c2d82d7fd7be4dce8dfc5096707afb672/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%88%86%E6%9E%90.md" "##数据处理分析工程师
+
+### 工作职责
+
+1. 处理竞争情报数据，通过进行数据清洗，建模，聚合，挖掘数据价值，提供决策支持
+2. 配合运营团队，基于业务展开反作弊、异常检测等逻辑，建立数据指标体系，不断提高竞争情报数据的准确性
+1. 追查异常问题，并梳理建立通用问题分析方法，无情的推进自动化方式解放生产力
+1. 主动寻求竞争情报数据玩法，从行业角度分析情报，发现竞对应用突破点
+
+### 职位要求
+
+具有相当饱满的工作热情，敢打敢拼，敢怒敢言
+熟悉算法，数据结构，概率等，有扎实的基本功
+对数据敏感，有强烈的好奇心，对问题穷追猛打的态度
+熟悉C/C++/PHP/Java/Python其中至少一种语言，通吃者优先
+理解数据仓库概念和技术，熟悉MySQL/Hive优先
+有反作弊，异常监测工作经验者优先
+有大规模数据处理经验者优先"] [object gh-gist-gist-file "gh-gist-gist-file" "平台.md" 2374 "https://gist.github.com/raw/8a148452cec252b03977/bd31cc3d65abbdbae9de9d63a595c23b3e668b65/%E5%B9%B3%E5%8F%B0.md" "## O2O高级平台工程师(大数据与机器学习)1052 北京
+
+作为最大的O2O本地生活电子商务公司，美团网正在以每年超过300%的速度成长，我们的流量团队致力于通过先进的技术手段发现、找到更多的用户，并为他们提供更好的本地生活服务。做为流量团队的一员，您将不仅是一个思考者，同时还是一个行动派：您既要热爱算法、数据分析，同时也要享受真正的系统实现。可扩展性、可用性等问题是您每天要思考的问题，性能、系统监控、大数据、分布式是您每天要面对的挑战。
+
+如果您喜欢挑战，乐于思考，享受解决复杂问题带来的快乐，并愿意和一群和您一样聪明的人一起工作，我们诚挚地邀请您加入美团！
+
+### 工作职责
+
+1. 设计、构建和SEO，SEM，CPS，运营活动，开放API等流量相关的系统
+2. 建立和完善各个流量系统的指标和监控体系，随时发现各个渠道的流量，转化率等趋势变化
+3. 不断优化系统性能和架构，通过分布式、服务化等手段提高系统的性能、可用性，可靠性和可扩展性
+4. 通过数据挖掘，机器学习等手段有效提高流量的质量和转化效率，并准确甄别可能的作弊行为
+5. 指导相关的技术和业务团队提供搜索引擎友好的网站链接和内容
+6. 保持同外部技术团队的良好沟通，确保美团系统和外部系统的协同工作
+
+### 职位要求
+
+#### 基本要求: 
+
+1. 计算机，数学等相关专业本科及以上学历
+2. 在数据机构，算法，面向对象的设计等方面有扎实的基本功 
+3. 熟悉Java, C, C++, C#, PHP, Python等编程语言中的至少一门语言
+4. 掌握数据库的基本概念，并熟悉DB2, Oracle, MySQL, SQLServer等常见数据库中的至少一个
+
+#### 有如下经验/能力者优先：
+
+1. 熟悉大规模商用搜索引擎(如：爬取，索引，query分析，相关性ranking等）
+2. 有Hadoop, 数据挖掘，机器学习，web分析，模式识别，统计计算等方面的经验
+3. 对HTML，Javascript, JQuery等前端技术有一定经验
+4. 对Linux/Unix下的用Perl/Shell Script等脚本编程有一定经验
+5. 有基于数据来解决复杂问题的能力
+6. 在快节奏，多任务的工作中，能做出有效的价值和优先级判断的能力
+"] [object gh-gist-gist-file "gh-gist-gist-file" "后台服务开发0942.md" 997 "https://gist.github.com/raw/8a148452cec252b03977/cc528454bc88b6c90a10ba7393471ed7801d361b/%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E5%BC%80%E5%8F%910942.md" "### 工作职责
+
+1. 负责美团在线系统服务端的后台设计和开发，涉及业务包括但不限于：美团首页、团购和商户搜索、Ranking、推荐系统等，确保消费者能迅速找到感兴趣的本地服务信息
+1. 负责确保上述服务的线上稳定性和架构合理性，以满足业务的变化、用户的需求，并且不断解决大规模请求和海量数据的增长压力，确保在线系统的可靠
+
+### 职位要求
+
+1. 具有扎实的服务器端开发功底，在算法/数据结构、性能、并发、线上系统运维以及系统水平扩展方面有自己的理解和实战经验
+1. 兼顾代码的性能和健壮性，Python、C/C++、Java 精通其一，并且不局限于某种语言
+1. 熟悉MySQL/Oracle或NoSQL的原理和性能调优，有Hadoop相关开发和使用经验者优先
+1. 习惯阅读英文文档，对技术有着永无止境的追求，自认为是技术Geek
+1. 有个人技术博客或在各技术社区活跃者优先"] [object gh-gist-gist-file "gh-gist-gist-file" "后台0002 .md" 808 "https://gist.github.com/raw/8a148452cec252b03977/2593aed58ff2564edc59a79d80f3a49b2f85ad1e/%E5%90%8E%E5%8F%B00002%20.md" "## 高级后台工程师0002 
+
+### 工作职责
+
+1. 与产品经理、业务部门协同配合，参与需求定义，确定设计方案并负责最终实现；
+1. 担任核心开发者，承担关键任务攻关；
+1. 参与design & code review，指导初级工程师工作；
+1. 组织团队技术交流和分享活动，促进团队共同进步。
+
+### 职位要求
+1. 计算机及相关专业本科或硕士毕业，习惯阅读英文技术文档；
+1. 2年以上互联网大中型网站开发经验，有实际作品可以看到；
+1. 熟悉PHP或C或Java或Python开发；
+1. 熟悉数据库概念和技术，熟悉MySQL优先；
+1. 对业界最新的工具和技术有强烈的好奇心；
+1. 对开源软件有浓厚兴趣者优先；
+1. 有个人技术博客或在各技术社区活跃者优先；
+"] [object gh-gist-gist-file "gh-gist-gist-file" "后台(移动)0902.md" 589 "https://gist.github.com/raw/8a148452cec252b03977/d3458e0cf02d5bf2a66aca152929b27bf1886e27/%E5%90%8E%E5%8F%B0(%E7%A7%BB%E5%8A%A8)0902.md" "### 工作职责
+
+移动后台架构、公共框架和组件的开发研究以及后台基础设施的搭建。
+
+### 职位要求
+
+1. 计算机、通讯等专业本科以上学历，3年及以上工作经验；
+1. 熟悉Java或C/C++服务器开发；
+1. 熟悉网络编程；
+1. 精通TCP/IP协议及编程，熟悉互联网应用协议；
+1. 熟悉面向对象的大型分布式系统设计与开发；
+1. 有海量互联网服务经验者优先；
+1. 有开源系统(如nginx, Redis等)深入分析或者参与经历优先；
+1. 了解手机终端一个或多个平台开发者优先。
+"] [object gh-gist-gist-file "gh-gist-gist-file" "云计算.md" 1227 "https://gist.github.com/raw/8a148452cec252b03977/5a8c141536eeb9fd5f0725c748e212461f101003/%E4%BA%91%E8%AE%A1%E7%AE%97.md" "## 高级云计算开发工程师1025 北京
+
+### 工作职责
+
++ 研发云计算基础平台，支撑业务隔离、快速扩展，提高资源利用率。
++ 研发美团开放服务平台，为用户提供稳定、易用、高性价比的云计算产品。
++ 整理并分析经营数据，为产品研发和运营提供数据支持。
+
+### 职位要求
+
++ 计算机相关专业本科及以上，有两年以上产品研发经验；
++ 极强的学习能力和动力，对未知技术和领域能快速掌握并实践；
++ 熟练掌握操作系统原理，Internet网络原理；
++ 熟练掌握至少一门编程语言，熟悉至少3门编程语言，具备根据协议文档开发原型的能力；
++ 熟练掌握RESTful API规范，并有丰富开发经验；
++ 熟练掌握多线程编程，IPC编程；
++ 具备任一以下知识背景者优先考虑：
+    a) 熟悉云计算管理平台系统，熟悉相关代码，并有部署、使用经验；
+    b) 熟悉分布式对象存储、块存储系统，熟悉相关代码，并有部署、使用经验；
+    c) 熟悉网络流量监控与计费、系统监控、自动化布署等系统，并有相关开发经验；
++ 在开源社群活跃并有积极贡献者优先。"] [object gh-gist-gist-file "gh-gist-gist-file" "Linux系统工程师.md" 914 "https://gist.github.com/raw/8a148452cec252b03977/13b7fce36a47ea1433a2698343f1256e05f7d1c9/Linux%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E5%B8%88.md" "##资深（Linux）系统工程师 北京
+
+###工作职责
+
+1. 全面负责美团网内部系统管理以及运维支撑平台；
+1. 为其他工程师团队提供基础工具、基础平台支撑；
+1. 负责美团网内部系统及硬件的监控解决方案建设及维护。
+
+###职位要求
+
+1. 统招本科以上学历，至少二年以上互联网公司相关工作经验；
+1. 精通Linux环境下的各种服务的搭建和运维；
+1. 精通和灵活运用1种以上的脚本语言，包括：Shell、PERL、PHP、Python等；
+1. 熟悉国内外安全产品，如防火墙、入侵检测、漏洞扫描、防病毒等；
+1. 对异构平台下的集中日志管理解决方案有相关经验；
+1. 对异构平台下的集中监控解决方案有相关经验；
+1. 对开源解决方案在企业内部的使用有相关项目经验；
+1. 有个人技术博客的（请在简历中写明博客地址）。
+"] [object gh-gist-gist-file "gh-gist-gist-file" "iOS.md" 1123 "https://gist.github.com/raw/8a148452cec252b03977/09eac8fb967d5d60dc41b995aa2fa2d474b4fec4/iOS.md" "## 高级iOS研发工程师1036 北京
+
+### 工作职责
+
++ 计算机或相关专业本科及以上学历
++ 3年以上工作经验，2年以上iOS开发经验
++ 具有扎实的Objective-C语言基础，熟练掌握C/C++者优先
++ 熟练掌握iOS开发、测试、调优工具的使用
++ 能够熟练编写iOS平台自定义控件和动画效果
++ 深入理解Objective-C Runtime运行机制和内存管理机制
++ 深入了解各个不同iOS版本的特性与差异
++ 熟悉网络通信机制及常用数据传输协议
++ 良好的面向对象化编程思想，熟练运用常见设计模式
++ 具有扎实的编程基础、数据结构及算法基础和解决问题的能力
++ 具有较强的代码驾驭能力与技术设计能力，有复杂系统开发经验者优先
+
+### 职位要求
++ 具有强烈的进取心和求知欲望，善于学习和运用新知识
++ 具有良好的团队合作精神和积极主动的沟通意识和良好的沟通能力
++ 具有良好的分析和解决问题的能力，能攻克疑难问题，勇于面对挑战
++ 对移动产品有浓厚兴趣，对移动产品有较好的个人理解"] [object gh-gist-gist-file "gh-gist-gist-file" "DBA0919.md" 1438 "https://gist.github.com/raw/8a148452cec252b03977/d68a4058f7cb289db86273cf095b9624654bbbe1/DBA0919.md" "### 工作职责
+
+1. 维护美团网数据库稳定运行，持续发现和解决潜在的问题；
+1. 负责数据库的性能优化，使用新技术和新架构满足日益增长的业务需求；
+1. 负责数据库的监控系统设计，为开发团队提供平台支持；
+1. 负责数据库的虚拟化平台建设，实现高可用、可扩展架构；
+1. 对数据库进行容量规划、架构设计，提高业务高可用性和容灾能力；
+1. 负责数据库相关工作的整体规划，提供决策建议。
+
+### 职位要求
+
+1. 计算机相关专业本科及以上，有两年以上MySQL管理经验；
+1. 熟悉MySQL数据库体系结构和工作原理；
+1. 熟悉常用存储引擎的功能和特点以及主从复制原理和实践；
+1. 熟悉数据库的性能优化、SQL调优技术，对高并发数据库的锁和事务隔离问题有深入理解；
+1. 熟悉数据库容量规划和分表设计方法，有海量数据库设计和支持经验优先；
+1. 熟悉常用的数据库备份方法，有xtrabackup/InnoBackup使用经验，并理解其工作原理；
+1. 精通脚本语言Bash，并至少能用Perl，Python，PHP，Ruby中的一种进行快速开发；
+1. 对MySQL技术有强烈兴趣，熟悉MySQL各个分支版本，关注新的技术动态；
+1. 对如下关键词代表的系统熟悉者优先：Redis/MongoDB/MemcacheDB/Cassandra等；
+1. 在开源社群活跃并有积极贡献者优先。"] [object gh-gist-gist-file "gh-gist-gist-file" "Android1029.md" 1875 "https://gist.github.com/raw/8a148452cec252b03977/417fec1f4460ca90af3acf9aa059a92faaadb515/Android1029.md" "## 新产品高级 Android 工程师1029 北京
+
+### 关于我们：
+
+1.我们是一家技术驱动的O2O企业
+2.这是一个学习型组织，重视分享和成长，工作标准不断提高
+3.崇尚优雅架构下的敏捷开发、快速迭代
+
+#### 我们苦苦寻找具有以下特质的人：
+1.相信技术改变世界，而不是厚黑学
+2.对代码质量、设计质量、工程质量有追求
+3.痛恨不靠谱的产品经理，希望对产品有更多发言权
+4.迷恋技术或者迷恋解决问题，最好是迷恋用技术解决问题
+5.希望在O2O领域大展拳脚
+6.想要创业
+
+#### 有以下特征者难以在这个团队存活：
+1.使用 baidu 而不是 google 来搜索技术问题
+2.未曾认真研读过一本原版英文技术书
+3.不在业余时间钻研技术或持续学习
+4.认为用户体验是产品经理的事
+5.认为测试人员对工程质量的影响大于工程师
+6.认为工作就是完成领导交给的任务
+
+### 工作职责
+
+负责高质量的 Android 客户端的设计、开发与改进。
+
+### 职位要求
+
+1. 本科及以上学历，扎实的计算机专业基本功；
+1. 工作3年以上，从事Android相关开发工作1年以上；
+1. 熟悉 Android 系统原理，熟悉 Android 软件的开发、测试、分发流程；
+1. 精通 Java 语言，熟悉虚拟机原理；
+1. 对 JNI/NDK 有研究者优先；了解 HTML5，JS 相关技术者优先；
+1. 熟悉移动网络通信机制，对Socket通信，TCP/IP和HTTP有较深刻理解和经验，有网络编程经验者或 Java Server 端开发经验者优先；
+1. 熟悉 Linux 系统，了解 Kernel，有嵌入式系统或硬件研发经验者优先；
+1. 能够独立或带队进行项目开发。
 
 
-def init_connection():
-    global gConn
-    if gConn == None:
-        gConn = sqlite3.connect(DBFILE)
++ 你常上的3~5个网站（如方便请注明在所活跃的社区里的ID）、常用的开发工具；
++ 你阅读过并推荐的3~5本技术类书籍；"] [object gh-gist-gist-file "gh-gist-gist-file" "Android0901.md" 723 "https://gist.github.com/raw/8a148452cec252b03977/766637aaa25e9d7d1d1e275d40cc9182805811c5/Android0901.md" "## 高级Android工程师0901
 
-def get_connection():
-    if gConn == None:
-        init_connection()
-    return gConn
+### 工作职责
 
-def close_connection():
-    global gConn
-    if gConn != None:
-        gConn.close()
-        gConn = None
-    
-def get_cursor():
-    if gConn == None:
-        init_connection()
-    return conn.cursor()
+负责美团相关产品 Android 客户端的设计、开发与改进。
 
-def create_table(commit=True):
-    #cur = get_cursor()
-    get_connection().execute(
-        '''CREATE TABLE device
-    	(id INTEGER PRIMARY KEY AUTOINCREMENT, name text)'''   
-        )
+### 职位要求
 
-def insert_data(data):
-    # dynamically detect parameter type: tuple/list/string
-    conn = get_connection()
-    INSERT_CMD = \"INSERT INTO device(name) VALUES (?)\"
-    do_commit = True
-    if type(data) == list:
-        conn.executemany(INSERT_CMD, data)
-    elif type(data) == tuple:
-        conn.execute(INSERT_CMD, data)
-    elif type(data) == str:
-        conn.execute(INSERT_CMD, (data,))
-    else:
-        # unkown type
-        do_commit = False
-        pass
-    if do_commit:
-        conn.commit()
-        
-    
-    
-    
-def test_create_insert():
+1. 工作3年以上，从事Android相关开发工作1年以上；
+1. 熟悉Android系统，熟悉Android软件的开发、测试、分发流程；
+1. 精通Java语言，熟悉虚拟机原理；
+1. 对JNI/NDK有研究者优先；
+1. 了解HTML5，JS相关技术者优先；
+1. 熟悉移动网络通信机制，对Socket通信，TCP/IP和HTTP有较深刻理解和经验，有网络编程经验者或Java Server端开发经验者优先；
+1. 熟悉Linux系统，了解Kernel，有嵌入式系统或硬件研发经验者优先；
+1. 热爱移动互联网，有创业经历者优先。
+"] [object gh-gist-gist-file "gh-gist-gist-file" "Android(无线cps).md" 1042 "https://gist.github.com/raw/8a148452cec252b03977/405d11aee9dead35a9de6c8421927966c587092d/Android(%E6%97%A0%E7%BA%BFcps).md" "## 联盟研发Android高级工程师(无线cps)
+### 工作职责
+设计与实现无线联盟android SDK，并进行文档撰写
+通过各种技术手段保证SDK兼容性和可用性，可扩展性和高性能
+和后端团队一起完成端到端的联盟系统
+和业务团队和产品团队配合，对产品进行优化和迭代开发
 
-    insert_data('make')
-    insert_data(('github', ))
-    insert_data([('git', ),('svn',),('hg',)])
-    
-    cur = get_connection().cursor()
-    cur.execute('select name from device')
-    print cur.fetchall()
+### 职位要求
 
-    close_connection()
-    
-if __name__ == \"__main__\":
-    test_create_insert()
-    pass
-"]) t "python sqlite3 insert demo" "2013-07-17T09:38:07Z" "2013-07-17T09:40:56Z" "https://gist.github.com/6019171.git" "https://gist.github.com/6019171.git" "https://gist.github.com/6019171" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "6019171" "https://api.github.com/gists/6019171" (((url . "https://api.github.com/gists/6019171/356aaef65da44bd08ba8628dbe64a74efd521e9c") (change_status (deletions . 0) (additions . 73) (total . 73)) (committed_at . "2013-07-17T09:38:07Z") (version . "356aaef65da44bd08ba8628dbe64a74efd521e9c") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix")))) nil] [object gh-gist-gist "gh-gist-gist" nil t "python sqlite3" "2013-07-17T09:20:44Z" "2013-07-17T09:41:19Z" "https://gist.github.com/6019070.git" "https://gist.github.com/6019070.git" "https://gist.github.com/6019070" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "6019070" "https://api.github.com/gists/6019070" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "learning_argparse.md" 976 "https://gist.github.com/raw/5856067/aad94443027c62e81938824dcfa970c56c8dae3c/learning_argparse.md" nil]) t "Python Tips" "2013-06-25T05:07:22Z" "2013-07-17T09:07:48Z" "https://gist.github.com/5856067.git" "https://gist.github.com/5856067.git" "https://gist.github.com/5856067" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5856067" "https://api.github.com/gists/5856067" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "recover.sh" 112 "https://gist.github.com/raw/5562497/1cfd92455bd90886e1b5af88c605da2d2046422c/recover.sh" nil]) t "Recover grub after installing windows in grub shell" "2013-05-12T05:08:18Z" "2013-05-12T05:08:19Z" "https://gist.github.com/5562497.git" "https://gist.github.com/5562497.git" "https://gist.github.com/5562497" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5562497" "https://api.github.com/gists/5562497" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "splash2_benchmarking.py" 7642 "https://gist.github.com/raw/458136352372c990dc60/91fc236e934fe68037bf07cae3280f14720d71f5/splash2_benchmarking.py" nil]) :json-false "pin splash2 benchmark script" "2013-05-11T08:05:10Z" "2013-05-11T08:05:11Z" "https://gist.github.com/458136352372c990dc60.git" "https://gist.github.com/458136352372c990dc60.git" "https://gist.github.com/458136352372c990dc60" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "458136352372c990dc60" "https://api.github.com/gists/458136352372c990dc60" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "macro.md" 139 "https://gist.github.com/raw/5529798/e5cae7c033ed0279c3dc76da7eb75c870984520e/macro.md" nil]) t "C/C++ Macro string concatenation" "2013-05-07T02:08:31Z" "2013-05-07T02:09:06Z" "https://gist.github.com/5529798.git" "https://gist.github.com/5529798.git" "https://gist.github.com/5529798" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5529798" "https://api.github.com/gists/5529798" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "file_exists.sh" 109 "https://gist.github.com/raw/5523176/584282f236aec644a781c5b399f7a484e047d15b/file_exists.sh" nil]) t "Check if a file exists with wildcard in shell script  
-link:http://stackoverflow.com/a/6364244" "2013-05-06T03:12:42Z" "2013-05-06T03:12:43Z" "https://gist.github.com/5523176.git" "https://gist.github.com/5523176.git" "https://gist.github.com/5523176" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5523176" "https://api.github.com/gists/5523176" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "3.read_large_file.md" 715 "https://gist.github.com/raw/5300279/cfaba5a2390429d95c0afe6a598c9a00389132c0/3.read_large_file.md" nil] [object gh-gist-gist-file "gh-gist-gist-file" "2.detect_function_type.md" 137 "https://gist.github.com/raw/5300279/52a306b6875ef192144796297ab5ee059b8f379d/2.detect_function_type.md" nil] [object gh-gist-gist-file "gh-gist-gist-file" "1.call_external_cmd.markdown" 186 "https://gist.github.com/raw/5300279/9308d825dfa0522758adf36772a62383f2d68a8b/1.call_external_cmd.markdown" nil] [object gh-gist-gist-file "gh-gist-gist-file" "0.python_tips_index.md" 80 "https://gist.github.com/raw/5300279/37c12f303a75a003ac8441866b8f08807b14769d/0.python_tips_index.md" nil]) t "Python学习备忘" "2013-04-03T11:05:27Z" "2013-07-16T06:33:32Z" "https://gist.github.com/5300279.git" "https://gist.github.com/5300279.git" "https://gist.github.com/5300279" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5300279" "https://api.github.com/gists/5300279" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "xrange.py" 129 "https://gist.github.com/raw/5298115/1e466373ba2d48aa989ba13cf9ae02274dfe7888/xrange.py" nil]) t "self define python range" "2013-04-03T03:01:00Z" "2013-04-03T03:01:01Z" "https://gist.github.com/5298115.git" "https://gist.github.com/5298115.git" "https://gist.github.com/5298115" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5298115" "https://api.github.com/gists/5298115" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "linux-life-guide.markdown" 197 "https://gist.github.com/raw/5280669/5fb2bc4754ed17794a511690c498aceb42f4b036/linux-life-guide.markdown" nil]) t "Linux日常使用指南" "2013-03-31T14:03:03Z" "2013-03-31T14:03:52Z" "https://gist.github.com/5280669.git" "https://gist.github.com/5280669.git" "https://gist.github.com/5280669" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5280669" "https://api.github.com/gists/5280669" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "reduceCT2.cpp" 2059 "https://gist.github.com/raw/9fbd52771340c6401e6e/9ecba6d947d89500ec6ad666d2e2e44db34bec17/reduceCT2.cpp" nil]) :json-false "reduceCT" "2013-03-11T13:50:45Z" "2013-03-11T13:50:46Z" "https://gist.github.com/9fbd52771340c6401e6e.git" "https://gist.github.com/9fbd52771340c6401e6e.git" "https://gist.github.com/9fbd52771340c6401e6e" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "9fbd52771340c6401e6e" "https://api.github.com/gists/9fbd52771340c6401e6e" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "reduceCT.cpp" 650 "https://gist.github.com/raw/5d370c63964445b3ceca/fd4bff218d19ce8bd8a4e76a7f5150106da9cbe3/reduceCT.cpp" nil]) :json-false "reduceCT" "2013-03-11T12:00:50Z" "2013-03-11T12:06:16Z" "https://gist.github.com/5d370c63964445b3ceca.git" "https://gist.github.com/5d370c63964445b3ceca.git" "https://gist.github.com/5d370c63964445b3ceca" 1 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5d370c63964445b3ceca" "https://api.github.com/gists/5d370c63964445b3ceca" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "test.md" 58 "https://gist.github.com/raw/8d2938fa3070431ef217/5ea5610aa42b8cafb3718bee9dfe743f1db4021a/test.md" nil]) :json-false "Test Markdown" "2013-03-06T05:45:38Z" "2013-03-06T08:08:42Z" "https://gist.github.com/8d2938fa3070431ef217.git" "https://gist.github.com/8d2938fa3070431ef217.git" "https://gist.github.com/8d2938fa3070431ef217" 13 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "8d2938fa3070431ef217" "https://api.github.com/gists/8d2938fa3070431ef217" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "ped.cpp" 900 "https://gist.github.com/raw/5096778/86642dbecb3237fd51faddf8acfb6d23fc2b697f/ped.cpp" nil]) t "" "2013-03-06T04:45:22Z" "2013-03-06T04:45:23Z" "https://gist.github.com/5096778.git" "https://gist.github.com/5096778.git" "https://gist.github.com/5096778" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5096778" "https://api.github.com/gists/5096778" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "floorLog2.c" 322 "https://gist.github.com/raw/4529694/5a7d328ef855118f1f5d04b024b138999e52845f/floorLog2.c" nil]) t "simple log 2 calculation implement (from pintool demo)" "2013-01-14T12:20:17Z" "2013-01-14T12:20:18Z" "https://gist.github.com/4529694.git" "https://gist.github.com/4529694.git" "https://gist.github.com/4529694" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "4529694" "https://api.github.com/gists/4529694" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" ".gitconfig" 209 "https://gist.github.com/raw/3182231/c40b28efb059a302a26ff67c4cbac410911cb179/.gitconfig" nil]) t "Github via goagent" "2012-07-26T14:08:31Z" "2012-07-26T14:08:31Z" "https://gist.github.com/3182231.git" "https://gist.github.com/3182231.git" "https://gist.github.com/3182231" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "3182231" "https://api.github.com/gists/3182231" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "android_whole_contacts_phones.java" 385 "https://gist.github.com/raw/2863773/c219d121cb08b1576d130883cb5aa43b67cfb23a/android_whole_contacts_phones.java" nil]) t "getting whole phone numbers and names of contacts in android | [Chinese] 获得所有联系人名字和号码" "2012-06-03T14:38:30Z" "2012-06-03T14:38:30Z" "https://gist.github.com/2863773.git" "https://gist.github.com/2863773.git" "https://gist.github.com/2863773" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "2863773" "https://api.github.com/gists/2863773" nil nil])] ("/gists/6019171" "GET" "826ad72b99a0ab6265350f353e9c9ff74521cee4") [object pcache-entry "pcache-entry" 1374054320.395746 nil [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "sqlite_demo.py" 1531 "https://gist.github.com/raw/6019171/d4d23c00a88588579f107844289400c213a1f6fb/sqlite_demo.py" "#!/usr/bin/python
-#-*- encoding:utf-8 -*-
+#### 基本要求:
 
-import sqlite3
+1. 工作3年以上，从事Android相关开发工作1年以上
+2. 熟悉Android系统，熟悉Android软件的开发、测试、分发流程
+3. 精通Java语言，熟悉虚拟机原理
+4. 熟悉移动网络通信机制，对Socket通信，TCP/IP和HTTP有较深刻理解和经验
 
-DBFILE = \"demo.db\"
-gConn = None
+#### 有如下经验/能力者优先：
+1. 联盟平台相关开发经验或者服务端开发经验
+2. 了解HTML5，JS相关技术者
+3. 对JNI/NDK有研究或者具备android SDK开发经验
+4. 熟悉Linux系统，了解Kernel，有嵌入式系统或硬件研发经验者优先
+5. 有Hadoop, 数据挖掘，机器学习，web分析，模式识别，统计计算等方面的经验"]) :json-false "What you can do to archive the guru" "2013-07-22T09:43:25Z" "2013-07-22T10:22:11Z" "https://gist.github.com/8a148452cec252b03977.git" "https://gist.github.com/8a148452cec252b03977.git" "https://gist.github.com/8a148452cec252b03977" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "8a148452cec252b03977" "https://api.github.com/gists/8a148452cec252b03977" (((url . "https://api.github.com/gists/8a148452cec252b03977/00f347293e8136023b8df9577bcfe66ee27e8b47") (change_status (deletions . 22) (additions . 22) (total . 44)) (committed_at . "2013-07-22T10:22:11Z") (version . "00f347293e8136023b8df9577bcfe66ee27e8b47") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/d68b08c7f8214e8a58b9a80ec79adb7951458d7e") (change_status (deletions . 0) (additions . 0) (total . 0)) (committed_at . "2013-07-22T10:18:56Z") (version . "d68b08c7f8214e8a58b9a80ec79adb7951458d7e") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/98e15983cc013eb8f238a5f2d1b8e0f4b8881082") (change_status (deletions . 0) (additions . 0) (total . 0)) (committed_at . "2013-07-22T10:18:53Z") (version . "98e15983cc013eb8f238a5f2d1b8e0f4b8881082") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/839c45bbc0f309bcc4c3166f53d7462b06bd4db6") (change_status (deletions . 0) (additions . 133) (total . 133)) (committed_at . "2013-07-22T10:18:50Z") (version . "839c45bbc0f309bcc4c3166f53d7462b06bd4db6") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/c07a896d72aa7bc1bdd6bf9fc8eacca9fb913c41") (change_status (deletions . 11) (additions . 11) (total . 22)) (committed_at . "2013-07-22T10:01:57Z") (version . "c07a896d72aa7bc1bdd6bf9fc8eacca9fb913c41") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/bf07847307fa177780f3a46675402adac318165d") (change_status (deletions . 78) (additions . 175) (total . 253)) (committed_at . "2013-07-22T10:01:03Z") (version . "bf07847307fa177780f3a46675402adac318165d") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/0f6ac1b577271e49a4bf130b42d76bd483c5f52d") (change_status (deletions . 31) (additions . 31) (total . 62)) (committed_at . "2013-07-22T09:45:15Z") (version . "0f6ac1b577271e49a4bf130b42d76bd483c5f52d") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/2b98e738f80b896c873871e9b85954a4d78af7d3") (change_status (deletions . 0) (additions . 93) (total . 93)) (committed_at . "2013-07-22T09:43:25Z") (version . "2b98e738f80b896c873871e9b85954a4d78af7d3") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix")))) nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "generate_random_by_epoch.py" 50 "https://gist.github.com/raw/6027659/9a6c79d02268c7d8460c63661e0443c8e4d51771/generate_random_by_epoch.py" nil]) t "Python 根据时间生成随机数" "2013-07-18T08:24:10Z" "2013-07-18T08:24:11Z" "https://gist.github.com/6027659.git" "https://gist.github.com/6027659.git" "https://gist.github.com/6027659" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "6027659" "https://api.github.com/gists/6027659" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "sqlite_demo.py" 1531 "https://gist.github.com/raw/6019171/d4d23c00a88588579f107844289400c213a1f6fb/sqlite_demo.py" nil]) t "python sqlite3 insert demo" "2013-07-17T09:38:07Z" "2013-07-17T09:40:56Z" "https://gist.github.com/6019171.git" "https://gist.github.com/6019171.git" "https://gist.github.com/6019171" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "6019171" "https://api.github.com/gists/6019171" nil nil] [object gh-gist-gist "gh-gist-gist" nil t "python sqlite3" "2013-07-17T09:20:44Z" "2013-07-17T09:41:19Z" "https://gist.github.com/6019070.git" "https://gist.github.com/6019070.git" "https://gist.github.com/6019070" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "6019070" "https://api.github.com/gists/6019070" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "learning_argparse.md" 976 "https://gist.github.com/raw/5856067/aad94443027c62e81938824dcfa970c56c8dae3c/learning_argparse.md" nil]) t "Python Tips" "2013-06-25T05:07:22Z" "2013-07-17T09:07:48Z" "https://gist.github.com/5856067.git" "https://gist.github.com/5856067.git" "https://gist.github.com/5856067" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5856067" "https://api.github.com/gists/5856067" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "recover.sh" 112 "https://gist.github.com/raw/5562497/1cfd92455bd90886e1b5af88c605da2d2046422c/recover.sh" nil]) t "Recover grub after installing windows in grub shell" "2013-05-12T05:08:18Z" "2013-05-12T05:08:19Z" "https://gist.github.com/5562497.git" "https://gist.github.com/5562497.git" "https://gist.github.com/5562497" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5562497" "https://api.github.com/gists/5562497" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "splash2_benchmarking.py" 7642 "https://gist.github.com/raw/458136352372c990dc60/91fc236e934fe68037bf07cae3280f14720d71f5/splash2_benchmarking.py" nil]) :json-false "pin splash2 benchmark script" "2013-05-11T08:05:10Z" "2013-05-11T08:05:11Z" "https://gist.github.com/458136352372c990dc60.git" "https://gist.github.com/458136352372c990dc60.git" "https://gist.github.com/458136352372c990dc60" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "458136352372c990dc60" "https://api.github.com/gists/458136352372c990dc60" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "macro.md" 139 "https://gist.github.com/raw/5529798/e5cae7c033ed0279c3dc76da7eb75c870984520e/macro.md" nil]) t "C/C++ Macro string concatenation" "2013-05-07T02:08:31Z" "2013-05-07T02:09:06Z" "https://gist.github.com/5529798.git" "https://gist.github.com/5529798.git" "https://gist.github.com/5529798" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5529798" "https://api.github.com/gists/5529798" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "file_exists.sh" 109 "https://gist.github.com/raw/5523176/584282f236aec644a781c5b399f7a484e047d15b/file_exists.sh" nil]) t "Check if a file exists with wildcard in shell script  
+link:http://stackoverflow.com/a/6364244" "2013-05-06T03:12:42Z" "2013-05-06T03:12:43Z" "https://gist.github.com/5523176.git" "https://gist.github.com/5523176.git" "https://gist.github.com/5523176" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5523176" "https://api.github.com/gists/5523176" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "3.read_large_file.md" 715 "https://gist.github.com/raw/5300279/cfaba5a2390429d95c0afe6a598c9a00389132c0/3.read_large_file.md" nil] [object gh-gist-gist-file "gh-gist-gist-file" "2.detect_function_type.md" 137 "https://gist.github.com/raw/5300279/52a306b6875ef192144796297ab5ee059b8f379d/2.detect_function_type.md" nil] [object gh-gist-gist-file "gh-gist-gist-file" "1.call_external_cmd.markdown" 186 "https://gist.github.com/raw/5300279/9308d825dfa0522758adf36772a62383f2d68a8b/1.call_external_cmd.markdown" nil] [object gh-gist-gist-file "gh-gist-gist-file" "0.python_tips_index.md" 80 "https://gist.github.com/raw/5300279/37c12f303a75a003ac8441866b8f08807b14769d/0.python_tips_index.md" nil]) t "Python学习备忘" "2013-04-03T11:05:27Z" "2013-07-16T06:33:32Z" "https://gist.github.com/5300279.git" "https://gist.github.com/5300279.git" "https://gist.github.com/5300279" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5300279" "https://api.github.com/gists/5300279" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "xrange.py" 129 "https://gist.github.com/raw/5298115/1e466373ba2d48aa989ba13cf9ae02274dfe7888/xrange.py" nil]) t "self define python range" "2013-04-03T03:01:00Z" "2013-04-03T03:01:01Z" "https://gist.github.com/5298115.git" "https://gist.github.com/5298115.git" "https://gist.github.com/5298115" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5298115" "https://api.github.com/gists/5298115" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "linux-life-guide.markdown" 197 "https://gist.github.com/raw/5280669/5fb2bc4754ed17794a511690c498aceb42f4b036/linux-life-guide.markdown" nil]) t "Linux日常使用指南" "2013-03-31T14:03:03Z" "2013-03-31T14:03:52Z" "https://gist.github.com/5280669.git" "https://gist.github.com/5280669.git" "https://gist.github.com/5280669" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5280669" "https://api.github.com/gists/5280669" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "reduceCT2.cpp" 2059 "https://gist.github.com/raw/9fbd52771340c6401e6e/9ecba6d947d89500ec6ad666d2e2e44db34bec17/reduceCT2.cpp" nil]) :json-false "reduceCT" "2013-03-11T13:50:45Z" "2013-03-11T13:50:46Z" "https://gist.github.com/9fbd52771340c6401e6e.git" "https://gist.github.com/9fbd52771340c6401e6e.git" "https://gist.github.com/9fbd52771340c6401e6e" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "9fbd52771340c6401e6e" "https://api.github.com/gists/9fbd52771340c6401e6e" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "reduceCT.cpp" 650 "https://gist.github.com/raw/5d370c63964445b3ceca/fd4bff218d19ce8bd8a4e76a7f5150106da9cbe3/reduceCT.cpp" nil]) :json-false "reduceCT" "2013-03-11T12:00:50Z" "2013-03-11T12:06:16Z" "https://gist.github.com/5d370c63964445b3ceca.git" "https://gist.github.com/5d370c63964445b3ceca.git" "https://gist.github.com/5d370c63964445b3ceca" 1 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5d370c63964445b3ceca" "https://api.github.com/gists/5d370c63964445b3ceca" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "test.md" 58 "https://gist.github.com/raw/8d2938fa3070431ef217/5ea5610aa42b8cafb3718bee9dfe743f1db4021a/test.md" nil]) :json-false "Test Markdown" "2013-03-06T05:45:38Z" "2013-03-06T08:08:42Z" "https://gist.github.com/8d2938fa3070431ef217.git" "https://gist.github.com/8d2938fa3070431ef217.git" "https://gist.github.com/8d2938fa3070431ef217" 13 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "8d2938fa3070431ef217" "https://api.github.com/gists/8d2938fa3070431ef217" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "ped.cpp" 900 "https://gist.github.com/raw/5096778/86642dbecb3237fd51faddf8acfb6d23fc2b697f/ped.cpp" nil]) t "" "2013-03-06T04:45:22Z" "2013-03-06T04:45:23Z" "https://gist.github.com/5096778.git" "https://gist.github.com/5096778.git" "https://gist.github.com/5096778" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "5096778" "https://api.github.com/gists/5096778" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "floorLog2.c" 322 "https://gist.github.com/raw/4529694/5a7d328ef855118f1f5d04b024b138999e52845f/floorLog2.c" nil]) t "simple log 2 calculation implement (from pintool demo)" "2013-01-14T12:20:17Z" "2013-01-14T12:20:18Z" "https://gist.github.com/4529694.git" "https://gist.github.com/4529694.git" "https://gist.github.com/4529694" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "4529694" "https://api.github.com/gists/4529694" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" ".gitconfig" 209 "https://gist.github.com/raw/3182231/c40b28efb059a302a26ff67c4cbac410911cb179/.gitconfig" nil]) t "Github via goagent" "2012-07-26T14:08:31Z" "2012-07-26T14:08:31Z" "https://gist.github.com/3182231.git" "https://gist.github.com/3182231.git" "https://gist.github.com/3182231" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "3182231" "https://api.github.com/gists/3182231" nil nil] [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "android_whole_contacts_phones.java" 385 "https://gist.github.com/raw/2863773/c219d121cb08b1576d130883cb5aa43b67cfb23a/android_whole_contacts_phones.java" nil]) t "getting whole phone numbers and names of contacts in android | [Chinese] 获得所有联系人名字和号码" "2012-06-03T14:38:30Z" "2012-06-03T14:38:30Z" "https://gist.github.com/2863773.git" "https://gist.github.com/2863773.git" "https://gist.github.com/2863773" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "2863773" "https://api.github.com/gists/2863773" nil nil])] ("/gists/8a148452cec252b03977" "GET" "cd546aedadcdfb5d59ff70c9695d88e8be110ad0") [object pcache-entry "pcache-entry" 1374647183.367185 nil [object gh-gist-gist "gh-gist-gist" ([object gh-gist-gist-file "gh-gist-gist-file" "运维1078.md" 1096 "https://gist.github.com/raw/8a148452cec252b03977/aca4e3c59a1b485a3a812223e087d7bc0b6678cb/%E8%BF%90%E7%BB%B41078.md" "### 工作职责
+
++ 保障美团网内网信息化系统24×7稳定运行，并进行前瞻性容量规划；
++设计并开发资产管理平台、自动构建部署系统、监控报警系统等自动化运维系统；
++ 积累并规范化系统运维的最佳实践并文档化。
+
+### 职位要求
+
++ 计算机相关专业本科毕业，能熟练阅读英文文档；
++ 有过四年以上的Linux系统使用经验和两年以上的Linux系统管理经验；
++ 精通脚本语言Bash，并至少能用Perl，Python，PHP，Ruby中的一种进行快速开发；
++ 熟悉常见应用配置及优化，如Nginx/Apache/MySQL/DNS/Postfix等；
++ 认同并坚持“Automate Everything You Can”的原则，认同DevOps文化；
++ 极强的学习能力和动力，对未知技术和领域能快速掌握并实践；
++ 有资产管理平台、自动构建及部署系统、配置管理系统、监控报警平台等有实际建设经验者优先；
++ 对如下关键词代表的系统熟悉者优先：iDRAC/DRBD/KVM/LNMP/Zabbix/CMDB/GLPI/OCS等；
++ 在开源社群活跃并有积极贡献者优先
+"] [object gh-gist-gist-file "gh-gist-gist-file" "运维1006.md" 1608 "https://gist.github.com/raw/8a148452cec252b03977/f8efb855e3993d15424c4c01f546152c75c9a657/%E8%BF%90%E7%BB%B41006.md" "## 系统运维工程师1006 北京
+
+美团系统运维团队承担了为上千万美团消费者和商家提供快速稳定服务的重任。作为一名系统运维工程师，将掌控美团不同用途的服务器和业务，建设和维护大规模、高容错的硬件和软件基础架构及在线应用，解决复杂的软件和系统问题，同时改进部署效率，降低维护成本。
+
+我们倡导团队的分享，你可以分享阅读Python源代码的收获，也可以分享你的哲学思考。
+我们坚信兴趣是最好的老师，并尊重每个人的兴趣和意愿。
+我们坚信大道至简，认同并坚持“Don't Repeat Yourself”的原则。
+我们坚信DevOps文化，认同并坚持“Automate Everything”的思想。
+
+### 工作职责
+1. 搭建基础运维架构，对新技术和方案进行尝试和测试，用技术满足业务发展需求；
+1. 维护美团网各项服务，持续查找并修复问题，做保障业务稳定运行的幕后英雄；
+1. 应急响应线上故障报警，在故障时成为快速解决问题恢复业务的消防员；
+1. 积累系统运维的最佳实践，制定运维规范和策略，并实现文档化。
+
+### 职位要求
+1. Linux骨灰级玩家，两年以上Linux系统管理经验；
+1. 精通网络、操作系统原理，熟练使用SHELL、Python；
+1. 具备很强的分析和解决问题的能力，有项目管理、运维流程建设经验者优先；
+1. 对如下关键词代表的系统熟悉者优先：iDRAC/Cobbler/DRBD/KVM/LNMP/Zabbix/Puppet/CMDB等；
+1. 在开源社群活跃并有积极贡献者优先。
+"] [object gh-gist-gist-file "gh-gist-gist-file" "运维0040.md" 924 "https://gist.github.com/raw/8a148452cec252b03977/9b8644dd5bb438317b4c16a72c126ad6e47888a8/%E8%BF%90%E7%BB%B40040.md" "### 工作职责
+
+1. 研发自动化运维平台，提高运维、开发协作效率，规范操作流程。
+1. 研发基础服务组件，解决共性需求，减少重复开发与运维。
+1. 评估系统性能和运行状态，建立量化指标，用数据指导优化。
+
+### 职位要求
+
+1. Linux骨灰级玩家，两年以上Linux系统管理或开发经验；
+1. 精通网络、操作系统原理；
+1. 精通Python，熟悉Bash，并能用其它任何你能驾驭的语言进行快速开发；
+1. 自我驱动的学习和工作习惯，对未知技术和领域能快速掌握并实践；
+1. 良好的沟通、协调能力，有项目管理、团队管理经验者优先；
+1. 有代码发布、统一前端、资产配置管理、监控报警等系统实施经验者优先；
+1. 对如下关键词熟悉者优先：DevOps/CMDB/Django/Puppet/Zabbix/LNMP等；
+1. 在开源社区活跃并有积极贡献者优先。
+"] [object gh-gist-gist-file "gh-gist-gist-file" "数据抓取.md" 694 "https://gist.github.com/raw/8a148452cec252b03977/b4c9a7fb53949f5dacb7658d2f518c2775d5eed9/%E6%95%B0%E6%8D%AE%E6%8A%93%E5%8F%96.md" "## 数据抓取工程师
+
+### 工作职责
+
+1. 整合面向业务需求的抓取系统，抽象垂直方向搜索流程，完善抓取工具，完成竞对项目、商家等数据抓取解析工作
+1. 关注短期/长期发展需求，构建并完善每天百万次级别网页抓取系统，提供分布式、多样化、可扩展的统一开放抓取服务
+
+### 职位要求
+
+1. 具有相当饱满的工作热情，敢打敢拼，敢怒敢言
+1. 具有大中型后台服务系统研发经验，有网络爬虫或分布式系统研发经验者优先
+1. 熟悉JAVA或C++，有良好的编程习惯
+1. 有浏览器开发经验，了解浏览器工作原理者优先
+1. 有创业经验者优先
+
+"] [object gh-gist-gist-file "gh-gist-gist-file" "数据处理分析.md" 961 "https://gist.github.com/raw/8a148452cec252b03977/896c341c2d82d7fd7be4dce8dfc5096707afb672/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%88%86%E6%9E%90.md" "##数据处理分析工程师
+
+### 工作职责
+
+1. 处理竞争情报数据，通过进行数据清洗，建模，聚合，挖掘数据价值，提供决策支持
+2. 配合运营团队，基于业务展开反作弊、异常检测等逻辑，建立数据指标体系，不断提高竞争情报数据的准确性
+1. 追查异常问题，并梳理建立通用问题分析方法，无情的推进自动化方式解放生产力
+1. 主动寻求竞争情报数据玩法，从行业角度分析情报，发现竞对应用突破点
+
+### 职位要求
+
+具有相当饱满的工作热情，敢打敢拼，敢怒敢言
+熟悉算法，数据结构，概率等，有扎实的基本功
+对数据敏感，有强烈的好奇心，对问题穷追猛打的态度
+熟悉C/C++/PHP/Java/Python其中至少一种语言，通吃者优先
+理解数据仓库概念和技术，熟悉MySQL/Hive优先
+有反作弊，异常监测工作经验者优先
+有大规模数据处理经验者优先"] [object gh-gist-gist-file "gh-gist-gist-file" "平台.md" 2374 "https://gist.github.com/raw/8a148452cec252b03977/bd31cc3d65abbdbae9de9d63a595c23b3e668b65/%E5%B9%B3%E5%8F%B0.md" "## O2O高级平台工程师(大数据与机器学习)1052 北京
+
+作为最大的O2O本地生活电子商务公司，美团网正在以每年超过300%的速度成长，我们的流量团队致力于通过先进的技术手段发现、找到更多的用户，并为他们提供更好的本地生活服务。做为流量团队的一员，您将不仅是一个思考者，同时还是一个行动派：您既要热爱算法、数据分析，同时也要享受真正的系统实现。可扩展性、可用性等问题是您每天要思考的问题，性能、系统监控、大数据、分布式是您每天要面对的挑战。
+
+如果您喜欢挑战，乐于思考，享受解决复杂问题带来的快乐，并愿意和一群和您一样聪明的人一起工作，我们诚挚地邀请您加入美团！
+
+### 工作职责
+
+1. 设计、构建和SEO，SEM，CPS，运营活动，开放API等流量相关的系统
+2. 建立和完善各个流量系统的指标和监控体系，随时发现各个渠道的流量，转化率等趋势变化
+3. 不断优化系统性能和架构，通过分布式、服务化等手段提高系统的性能、可用性，可靠性和可扩展性
+4. 通过数据挖掘，机器学习等手段有效提高流量的质量和转化效率，并准确甄别可能的作弊行为
+5. 指导相关的技术和业务团队提供搜索引擎友好的网站链接和内容
+6. 保持同外部技术团队的良好沟通，确保美团系统和外部系统的协同工作
+
+### 职位要求
+
+#### 基本要求: 
+
+1. 计算机，数学等相关专业本科及以上学历
+2. 在数据机构，算法，面向对象的设计等方面有扎实的基本功 
+3. 熟悉Java, C, C++, C#, PHP, Python等编程语言中的至少一门语言
+4. 掌握数据库的基本概念，并熟悉DB2, Oracle, MySQL, SQLServer等常见数据库中的至少一个
+
+#### 有如下经验/能力者优先：
+
+1. 熟悉大规模商用搜索引擎(如：爬取，索引，query分析，相关性ranking等）
+2. 有Hadoop, 数据挖掘，机器学习，web分析，模式识别，统计计算等方面的经验
+3. 对HTML，Javascript, JQuery等前端技术有一定经验
+4. 对Linux/Unix下的用Perl/Shell Script等脚本编程有一定经验
+5. 有基于数据来解决复杂问题的能力
+6. 在快节奏，多任务的工作中，能做出有效的价值和优先级判断的能力
+"] [object gh-gist-gist-file "gh-gist-gist-file" "后台服务开发0942.md" 997 "https://gist.github.com/raw/8a148452cec252b03977/cc528454bc88b6c90a10ba7393471ed7801d361b/%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E5%BC%80%E5%8F%910942.md" "### 工作职责
+
+1. 负责美团在线系统服务端的后台设计和开发，涉及业务包括但不限于：美团首页、团购和商户搜索、Ranking、推荐系统等，确保消费者能迅速找到感兴趣的本地服务信息
+1. 负责确保上述服务的线上稳定性和架构合理性，以满足业务的变化、用户的需求，并且不断解决大规模请求和海量数据的增长压力，确保在线系统的可靠
+
+### 职位要求
+
+1. 具有扎实的服务器端开发功底，在算法/数据结构、性能、并发、线上系统运维以及系统水平扩展方面有自己的理解和实战经验
+1. 兼顾代码的性能和健壮性，Python、C/C++、Java 精通其一，并且不局限于某种语言
+1. 熟悉MySQL/Oracle或NoSQL的原理和性能调优，有Hadoop相关开发和使用经验者优先
+1. 习惯阅读英文文档，对技术有着永无止境的追求，自认为是技术Geek
+1. 有个人技术博客或在各技术社区活跃者优先"] [object gh-gist-gist-file "gh-gist-gist-file" "后台0002 .md" 808 "https://gist.github.com/raw/8a148452cec252b03977/2593aed58ff2564edc59a79d80f3a49b2f85ad1e/%E5%90%8E%E5%8F%B00002%20.md" "## 高级后台工程师0002 
+
+### 工作职责
+
+1. 与产品经理、业务部门协同配合，参与需求定义，确定设计方案并负责最终实现；
+1. 担任核心开发者，承担关键任务攻关；
+1. 参与design & code review，指导初级工程师工作；
+1. 组织团队技术交流和分享活动，促进团队共同进步。
+
+### 职位要求
+1. 计算机及相关专业本科或硕士毕业，习惯阅读英文技术文档；
+1. 2年以上互联网大中型网站开发经验，有实际作品可以看到；
+1. 熟悉PHP或C或Java或Python开发；
+1. 熟悉数据库概念和技术，熟悉MySQL优先；
+1. 对业界最新的工具和技术有强烈的好奇心；
+1. 对开源软件有浓厚兴趣者优先；
+1. 有个人技术博客或在各技术社区活跃者优先；
+"] [object gh-gist-gist-file "gh-gist-gist-file" "后台(移动)0902.md" 589 "https://gist.github.com/raw/8a148452cec252b03977/d3458e0cf02d5bf2a66aca152929b27bf1886e27/%E5%90%8E%E5%8F%B0(%E7%A7%BB%E5%8A%A8)0902.md" "### 工作职责
+
+移动后台架构、公共框架和组件的开发研究以及后台基础设施的搭建。
+
+### 职位要求
+
+1. 计算机、通讯等专业本科以上学历，3年及以上工作经验；
+1. 熟悉Java或C/C++服务器开发；
+1. 熟悉网络编程；
+1. 精通TCP/IP协议及编程，熟悉互联网应用协议；
+1. 熟悉面向对象的大型分布式系统设计与开发；
+1. 有海量互联网服务经验者优先；
+1. 有开源系统(如nginx, Redis等)深入分析或者参与经历优先；
+1. 了解手机终端一个或多个平台开发者优先。
+"] [object gh-gist-gist-file "gh-gist-gist-file" "云计算.md" 1227 "https://gist.github.com/raw/8a148452cec252b03977/5a8c141536eeb9fd5f0725c748e212461f101003/%E4%BA%91%E8%AE%A1%E7%AE%97.md" "## 高级云计算开发工程师1025 北京
+
+### 工作职责
+
++ 研发云计算基础平台，支撑业务隔离、快速扩展，提高资源利用率。
++ 研发美团开放服务平台，为用户提供稳定、易用、高性价比的云计算产品。
++ 整理并分析经营数据，为产品研发和运营提供数据支持。
+
+### 职位要求
+
++ 计算机相关专业本科及以上，有两年以上产品研发经验；
++ 极强的学习能力和动力，对未知技术和领域能快速掌握并实践；
++ 熟练掌握操作系统原理，Internet网络原理；
++ 熟练掌握至少一门编程语言，熟悉至少3门编程语言，具备根据协议文档开发原型的能力；
++ 熟练掌握RESTful API规范，并有丰富开发经验；
++ 熟练掌握多线程编程，IPC编程；
++ 具备任一以下知识背景者优先考虑：
+    a) 熟悉云计算管理平台系统，熟悉相关代码，并有部署、使用经验；
+    b) 熟悉分布式对象存储、块存储系统，熟悉相关代码，并有部署、使用经验；
+    c) 熟悉网络流量监控与计费、系统监控、自动化布署等系统，并有相关开发经验；
++ 在开源社群活跃并有积极贡献者优先。"] [object gh-gist-gist-file "gh-gist-gist-file" "Linux系统工程师.md" 914 "https://gist.github.com/raw/8a148452cec252b03977/13b7fce36a47ea1433a2698343f1256e05f7d1c9/Linux%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E5%B8%88.md" "##资深（Linux）系统工程师 北京
+
+###工作职责
+
+1. 全面负责美团网内部系统管理以及运维支撑平台；
+1. 为其他工程师团队提供基础工具、基础平台支撑；
+1. 负责美团网内部系统及硬件的监控解决方案建设及维护。
+
+###职位要求
+
+1. 统招本科以上学历，至少二年以上互联网公司相关工作经验；
+1. 精通Linux环境下的各种服务的搭建和运维；
+1. 精通和灵活运用1种以上的脚本语言，包括：Shell、PERL、PHP、Python等；
+1. 熟悉国内外安全产品，如防火墙、入侵检测、漏洞扫描、防病毒等；
+1. 对异构平台下的集中日志管理解决方案有相关经验；
+1. 对异构平台下的集中监控解决方案有相关经验；
+1. 对开源解决方案在企业内部的使用有相关项目经验；
+1. 有个人技术博客的（请在简历中写明博客地址）。
+"] [object gh-gist-gist-file "gh-gist-gist-file" "iOS.md" 1123 "https://gist.github.com/raw/8a148452cec252b03977/09eac8fb967d5d60dc41b995aa2fa2d474b4fec4/iOS.md" "## 高级iOS研发工程师1036 北京
+
+### 工作职责
+
++ 计算机或相关专业本科及以上学历
++ 3年以上工作经验，2年以上iOS开发经验
++ 具有扎实的Objective-C语言基础，熟练掌握C/C++者优先
++ 熟练掌握iOS开发、测试、调优工具的使用
++ 能够熟练编写iOS平台自定义控件和动画效果
++ 深入理解Objective-C Runtime运行机制和内存管理机制
++ 深入了解各个不同iOS版本的特性与差异
++ 熟悉网络通信机制及常用数据传输协议
++ 良好的面向对象化编程思想，熟练运用常见设计模式
++ 具有扎实的编程基础、数据结构及算法基础和解决问题的能力
++ 具有较强的代码驾驭能力与技术设计能力，有复杂系统开发经验者优先
+
+### 职位要求
++ 具有强烈的进取心和求知欲望，善于学习和运用新知识
++ 具有良好的团队合作精神和积极主动的沟通意识和良好的沟通能力
++ 具有良好的分析和解决问题的能力，能攻克疑难问题，勇于面对挑战
++ 对移动产品有浓厚兴趣，对移动产品有较好的个人理解"] [object gh-gist-gist-file "gh-gist-gist-file" "DBA0919.md" 1438 "https://gist.github.com/raw/8a148452cec252b03977/d68a4058f7cb289db86273cf095b9624654bbbe1/DBA0919.md" "### 工作职责
+
+1. 维护美团网数据库稳定运行，持续发现和解决潜在的问题；
+1. 负责数据库的性能优化，使用新技术和新架构满足日益增长的业务需求；
+1. 负责数据库的监控系统设计，为开发团队提供平台支持；
+1. 负责数据库的虚拟化平台建设，实现高可用、可扩展架构；
+1. 对数据库进行容量规划、架构设计，提高业务高可用性和容灾能力；
+1. 负责数据库相关工作的整体规划，提供决策建议。
+
+### 职位要求
+
+1. 计算机相关专业本科及以上，有两年以上MySQL管理经验；
+1. 熟悉MySQL数据库体系结构和工作原理；
+1. 熟悉常用存储引擎的功能和特点以及主从复制原理和实践；
+1. 熟悉数据库的性能优化、SQL调优技术，对高并发数据库的锁和事务隔离问题有深入理解；
+1. 熟悉数据库容量规划和分表设计方法，有海量数据库设计和支持经验优先；
+1. 熟悉常用的数据库备份方法，有xtrabackup/InnoBackup使用经验，并理解其工作原理；
+1. 精通脚本语言Bash，并至少能用Perl，Python，PHP，Ruby中的一种进行快速开发；
+1. 对MySQL技术有强烈兴趣，熟悉MySQL各个分支版本，关注新的技术动态；
+1. 对如下关键词代表的系统熟悉者优先：Redis/MongoDB/MemcacheDB/Cassandra等；
+1. 在开源社群活跃并有积极贡献者优先。"] [object gh-gist-gist-file "gh-gist-gist-file" "Android1029.md" 1875 "https://gist.github.com/raw/8a148452cec252b03977/417fec1f4460ca90af3acf9aa059a92faaadb515/Android1029.md" "## 新产品高级 Android 工程师1029 北京
+
+### 关于我们：
+
+1.我们是一家技术驱动的O2O企业
+2.这是一个学习型组织，重视分享和成长，工作标准不断提高
+3.崇尚优雅架构下的敏捷开发、快速迭代
+
+#### 我们苦苦寻找具有以下特质的人：
+1.相信技术改变世界，而不是厚黑学
+2.对代码质量、设计质量、工程质量有追求
+3.痛恨不靠谱的产品经理，希望对产品有更多发言权
+4.迷恋技术或者迷恋解决问题，最好是迷恋用技术解决问题
+5.希望在O2O领域大展拳脚
+6.想要创业
+
+#### 有以下特征者难以在这个团队存活：
+1.使用 baidu 而不是 google 来搜索技术问题
+2.未曾认真研读过一本原版英文技术书
+3.不在业余时间钻研技术或持续学习
+4.认为用户体验是产品经理的事
+5.认为测试人员对工程质量的影响大于工程师
+6.认为工作就是完成领导交给的任务
+
+### 工作职责
+
+负责高质量的 Android 客户端的设计、开发与改进。
+
+### 职位要求
+
+1. 本科及以上学历，扎实的计算机专业基本功；
+1. 工作3年以上，从事Android相关开发工作1年以上；
+1. 熟悉 Android 系统原理，熟悉 Android 软件的开发、测试、分发流程；
+1. 精通 Java 语言，熟悉虚拟机原理；
+1. 对 JNI/NDK 有研究者优先；了解 HTML5，JS 相关技术者优先；
+1. 熟悉移动网络通信机制，对Socket通信，TCP/IP和HTTP有较深刻理解和经验，有网络编程经验者或 Java Server 端开发经验者优先；
+1. 熟悉 Linux 系统，了解 Kernel，有嵌入式系统或硬件研发经验者优先；
+1. 能够独立或带队进行项目开发。
 
 
-def init_connection():
-    global gConn
-    if gConn == None:
-        gConn = sqlite3.connect(DBFILE)
++ 你常上的3~5个网站（如方便请注明在所活跃的社区里的ID）、常用的开发工具；
++ 你阅读过并推荐的3~5本技术类书籍；"] [object gh-gist-gist-file "gh-gist-gist-file" "Android0901.md" 723 "https://gist.github.com/raw/8a148452cec252b03977/766637aaa25e9d7d1d1e275d40cc9182805811c5/Android0901.md" "## 高级Android工程师0901
 
-def get_connection():
-    if gConn == None:
-        init_connection()
-    return gConn
+### 工作职责
 
-def close_connection():
-    global gConn
-    if gConn != None:
-        gConn.close()
-        gConn = None
-    
-def get_cursor():
-    if gConn == None:
-        init_connection()
-    return conn.cursor()
+负责美团相关产品 Android 客户端的设计、开发与改进。
 
-def create_table(commit=True):
-    #cur = get_cursor()
-    get_connection().execute(
-        '''CREATE TABLE device
-    	(id INTEGER PRIMARY KEY AUTOINCREMENT, name text)'''   
-        )
+### 职位要求
 
-def insert_data(data):
-    # dynamically detect parameter type: tuple/list/string
-    conn = get_connection()
-    INSERT_CMD = \"INSERT INTO device(name) VALUES (?)\"
-    do_commit = True
-    if type(data) == list:
-        conn.executemany(INSERT_CMD, data)
-    elif type(data) == tuple:
-        conn.execute(INSERT_CMD, data)
-    elif type(data) == str:
-        conn.execute(INSERT_CMD, (data,))
-    else:
-        # unkown type
-        do_commit = False
-        pass
-    if do_commit:
-        conn.commit()
-        
-    
-    
-    
-def test_create_insert():
+1. 工作3年以上，从事Android相关开发工作1年以上；
+1. 熟悉Android系统，熟悉Android软件的开发、测试、分发流程；
+1. 精通Java语言，熟悉虚拟机原理；
+1. 对JNI/NDK有研究者优先；
+1. 了解HTML5，JS相关技术者优先；
+1. 熟悉移动网络通信机制，对Socket通信，TCP/IP和HTTP有较深刻理解和经验，有网络编程经验者或Java Server端开发经验者优先；
+1. 熟悉Linux系统，了解Kernel，有嵌入式系统或硬件研发经验者优先；
+1. 热爱移动互联网，有创业经历者优先。
+"] [object gh-gist-gist-file "gh-gist-gist-file" "Android(无线cps).md" 1042 "https://gist.github.com/raw/8a148452cec252b03977/405d11aee9dead35a9de6c8421927966c587092d/Android(%E6%97%A0%E7%BA%BFcps).md" "## 联盟研发Android高级工程师(无线cps)
+### 工作职责
+设计与实现无线联盟android SDK，并进行文档撰写
+通过各种技术手段保证SDK兼容性和可用性，可扩展性和高性能
+和后端团队一起完成端到端的联盟系统
+和业务团队和产品团队配合，对产品进行优化和迭代开发
 
-    insert_data('make')
-    insert_data(('github', ))
-    insert_data([('git', ),('svn',),('hg',)])
-    
-    cur = get_connection().cursor()
-    cur.execute('select name from device')
-    print cur.fetchall()
+### 职位要求
 
-    close_connection()
-    
-if __name__ == \"__main__\":
-    test_create_insert()
-    pass
-"]) t "python sqlite3 insert demo" "2013-07-17T09:38:07Z" "2013-07-17T09:40:56Z" "https://gist.github.com/6019171.git" "https://gist.github.com/6019171.git" "https://gist.github.com/6019171" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "6019171" "https://api.github.com/gists/6019171" (((url . "https://api.github.com/gists/6019171/356aaef65da44bd08ba8628dbe64a74efd521e9c") (change_status (deletions . 0) (additions . 73) (total . 73)) (committed_at . "2013-07-17T09:38:07Z") (version . "356aaef65da44bd08ba8628dbe64a74efd521e9c") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix")))) nil]]))
-  :timestamp 1374058777.12714
+#### 基本要求:
+
+1. 工作3年以上，从事Android相关开发工作1年以上
+2. 熟悉Android系统，熟悉Android软件的开发、测试、分发流程
+3. 精通Java语言，熟悉虚拟机原理
+4. 熟悉移动网络通信机制，对Socket通信，TCP/IP和HTTP有较深刻理解和经验
+
+#### 有如下经验/能力者优先：
+1. 联盟平台相关开发经验或者服务端开发经验
+2. 了解HTML5，JS相关技术者
+3. 对JNI/NDK有研究或者具备android SDK开发经验
+4. 熟悉Linux系统，了解Kernel，有嵌入式系统或硬件研发经验者优先
+5. 有Hadoop, 数据挖掘，机器学习，web分析，模式识别，统计计算等方面的经验"]) :json-false "What you can do to archive the guru" "2013-07-22T09:43:25Z" "2013-07-22T10:22:11Z" "https://gist.github.com/8a148452cec252b03977.git" "https://gist.github.com/8a148452cec252b03977.git" "https://gist.github.com/8a148452cec252b03977" 0 [object gh-user "gh-user" "liuyix" 680922 nil "https://api.github.com/users/liuyix"] "8a148452cec252b03977" "https://api.github.com/gists/8a148452cec252b03977" (((url . "https://api.github.com/gists/8a148452cec252b03977/00f347293e8136023b8df9577bcfe66ee27e8b47") (change_status (deletions . 22) (additions . 22) (total . 44)) (committed_at . "2013-07-22T10:22:11Z") (version . "00f347293e8136023b8df9577bcfe66ee27e8b47") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/d68b08c7f8214e8a58b9a80ec79adb7951458d7e") (change_status (deletions . 0) (additions . 0) (total . 0)) (committed_at . "2013-07-22T10:18:56Z") (version . "d68b08c7f8214e8a58b9a80ec79adb7951458d7e") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/98e15983cc013eb8f238a5f2d1b8e0f4b8881082") (change_status (deletions . 0) (additions . 0) (total . 0)) (committed_at . "2013-07-22T10:18:53Z") (version . "98e15983cc013eb8f238a5f2d1b8e0f4b8881082") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/839c45bbc0f309bcc4c3166f53d7462b06bd4db6") (change_status (deletions . 0) (additions . 133) (total . 133)) (committed_at . "2013-07-22T10:18:50Z") (version . "839c45bbc0f309bcc4c3166f53d7462b06bd4db6") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/c07a896d72aa7bc1bdd6bf9fc8eacca9fb913c41") (change_status (deletions . 11) (additions . 11) (total . 22)) (committed_at . "2013-07-22T10:01:57Z") (version . "c07a896d72aa7bc1bdd6bf9fc8eacca9fb913c41") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/bf07847307fa177780f3a46675402adac318165d") (change_status (deletions . 78) (additions . 175) (total . 253)) (committed_at . "2013-07-22T10:01:03Z") (version . "bf07847307fa177780f3a46675402adac318165d") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/0f6ac1b577271e49a4bf130b42d76bd483c5f52d") (change_status (deletions . 31) (additions . 31) (total . 62)) (committed_at . "2013-07-22T09:45:15Z") (version . "0f6ac1b577271e49a4bf130b42d76bd483c5f52d") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix"))) ((url . "https://api.github.com/gists/8a148452cec252b03977/2b98e738f80b896c873871e9b85954a4d78af7d3") (change_status (deletions . 0) (additions . 93) (total . 93)) (committed_at . "2013-07-22T09:43:25Z") (version . "2b98e738f80b896c873871e9b85954a4d78af7d3") (user (type . "User") (received_events_url . "https://api.github.com/users/liuyix/received_events") (events_url . "https://api.github.com/users/liuyix/events{/privacy}") (repos_url . "https://api.github.com/users/liuyix/repos") (organizations_url . "https://api.github.com/users/liuyix/orgs") (subscriptions_url . "https://api.github.com/users/liuyix/subscriptions") (starred_url . "https://api.github.com/users/liuyix/starred{/owner}{/repo}") (gists_url . "https://api.github.com/users/liuyix/gists{/gist_id}") (following_url . "https://api.github.com/users/liuyix/following{/other_user}") (followers_url . "https://api.github.com/users/liuyix/followers") (html_url . "https://github.com/liuyix") (url . "https://api.github.com/users/liuyix") (gravatar_id . "d4a81d178289db17db041d544529493a") (avatar_url . "https://secure.gravatar.com/avatar/d4a81d178289db17db041d544529493a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png") (id . 680922) (login . "liuyix")))) nil]]))
+  :timestamp 1374647292.266854
   )
