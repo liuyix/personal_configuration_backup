@@ -141,14 +141,12 @@ export Ssh933="liuyix@10.108.12.227"
 export SshArch="liuyix@10.108.12.16"
 export Sshz=liuyix@10.108.12.158
 
-#export PATH="$HOME/.rbenv/bin:$PATH"
-#eval "$(rbenv init -)"
 ulimit -c unlimited
-
-#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export PATH=~/adt-bundle-linux-x86_64-20130717/sdk/platform-tools/:$PATH
 export PATH=~/android_toolchain/bin:$PATH
 export PATH=~/bin:$PATH
 export PATH=~/Dev/galaxys2_kernel_repack-i9100-ics/:$PATH
 export PATH=~/Dev/LBE_Root/root_firmware_script/extract-bootimg/:$PATH
+export PATH=$HOME/.rvm/bin/:$PATH # Add RVM to PATH for scripting
+export PATH=/home/liuyix/bin:$PATH

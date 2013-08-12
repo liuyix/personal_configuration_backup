@@ -19,4 +19,4 @@ bak_and_link ~/.vimrc vimrc
 bak_and_link ~/.vim vim.d
 bak_and_link ~/.emacs emacs.conf
 bak_and_link ~/.emacs.d emacs.d
-
+bak_and_link ~/.bash_profile bash_profile && echo '从网盘下载.rbenv'
