@@ -86,7 +86,7 @@ fi
 ##############################################
 # some more ls aliases
 alias ls='ls --color=auto'
-alias ll='ls -ahlF --time-style=long-iso'
+alias ll='ls -ahlFt --time-style=long-iso'
 alias la='ls -A'
 #alias l='ls -CF'
 #把rm改掉了
@@ -113,7 +113,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 ##################################
 alias rm='rm -I'
-alias ls='ls -hF --color=auto'
+alias ls='ls -hFt --color=auto'
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 
 #设置自动补全
@@ -126,7 +126,7 @@ complete -cf info
 HOST_AWK=/usr/bin/gawk
 NDK_HOME=/home/cnliuyix/android-ndk-r7
 export JAVA_HOME=/home/liuyix/lib/jdk
-export CLASSPATH=.:$JAVA_HOME/jre/lib:$JAVA_HOME/lib/tools.jar
+export CLASSPATH=.:$JAVA_HOME/jre/lib:$JAVA_HOME/lib/tools.jar:~/algs4/stdlib.jar
 export PATH=$PATH:$JAVA_HOME/bin:/home/liuyix/bin
 export NDKINC=$NDK_HOME/platforms/android-9/arch-arm/usr/include
 export m5=/home/liuyix/Dev/eclipse_workspace/gem5
@@ -151,3 +151,4 @@ export PATH=~/Dev/LBE_Root/root_firmware_script/extract-bootimg/:$PATH
 export PATH=$HOME/.rvm/bin/:$PATH # Add RVM to PATH for scripting
 export PATH=/home/liuyix/bin:$PATH
 export PATH=$HOME/android/adt-bundle/sdk/platform-tools:$PATH
+export box=10.108.12.107
