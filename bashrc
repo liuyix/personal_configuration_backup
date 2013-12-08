@@ -151,4 +151,6 @@ export PATH=~/Dev/LBE_Root/root_firmware_script/extract-bootimg/:$PATH
 export PATH=$HOME/.rvm/bin/:$PATH # Add RVM to PATH for scripting
 export PATH=/home/liuyix/bin:$PATH
 export PATH=$HOME/android/adt-bundle/sdk/platform-tools:$PATH
-export box=10.108.12.107
+export box=10.108.12.127
+export aliyun=root@115.29.149.158
+source ~/.bash_profile
