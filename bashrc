@@ -121,36 +121,10 @@ complete -cf sudo
 complete -cf man
 complete -cf info
 
-
-
-HOST_AWK=/usr/bin/gawk
-NDK_HOME=/home/cnliuyix/android-ndk-r7
-export JAVA_HOME=/home/liuyix/lib/jdk
-export CLASSPATH=.:$JAVA_HOME/jre/lib:$JAVA_HOME/lib/tools.jar:~/algs4/stdlib.jar
-export PATH=$PATH:$JAVA_HOME/bin:/home/liuyix/bin
-export NDKINC=$NDK_HOME/platforms/android-9/arch-arm/usr/include
-export m5=/home/liuyix/Dev/eclipse_workspace/gem5
-export M5_PATH=/home/liuyix/Dev/gem5/gem5_system
-export Proxy=http://127.0.0.1:8087
-export EDITOR="vim"
-export ALTERNATE_EDITOR='emacs --daemon; emacsclient -c'
-export Ssh932="liuyix@10.108.13.136"
-export Ssh932home=$Ssh932:/home/liuyix
-export Pinroot=/home/liuyix/lib/pin
-export Ssh933="liuyix@10.108.12.227"
-export SshArch="liuyix@10.108.12.16"
-export Sshz=liuyix@10.108.12.158
-
 ulimit -c unlimited
-
-export PATH=~/adt-bundle-linux-x86_64-20130717/sdk/platform-tools/:$PATH
-export PATH=~/android_toolchain/bin:$PATH
-export PATH=~/bin:$PATH
-export PATH=~/Dev/galaxys2_kernel_repack-i9100-ics/:$PATH
-export PATH=~/Dev/LBE_Root/root_firmware_script/extract-bootimg/:$PATH
-export PATH=$HOME/.rvm/bin/:$PATH # Add RVM to PATH for scripting
-export PATH=/home/liuyix/bin:$PATH
-export PATH=$HOME/android/adt-bundle/sdk/platform-tools:$PATH
-export box=10.108.12.127
-export aliyun=root@115.29.149.158
+HOST_AWK=/usr/bin/gawk
+export JAVA_HOME=~/lib/jdk
+export CLASSPATH=.:$JAVA_HOME/jre/lib:$JAVA_HOME/lib/tools.jar:~/algs4/stdlib.jar
+export PATH=$PATH:$JAVA_HOME/bin:~/bin
 source ~/.bash_profile
+source ~/.bash_env
