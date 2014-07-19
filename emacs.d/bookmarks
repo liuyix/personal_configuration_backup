@@ -1,0 +1,15 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("毕业论文"
+ (filename . "~/百度云同步盘/我的文档/我的毕业论文/gist/outline.org")
+ (front-context-string . "* 面向Cache/SPM可配置")
+ (rear-context-string)
+ (position . 1))
+(".emacs"
+ (filename . "~/develop/personal_configuration_backup/emacs.conf")
+ (front-context-string . ";; Liuyix .emacs")
+ (rear-context-string)
+ (position . 1))
+)
